@@ -12,15 +12,15 @@
             <legend>Dados Pessoais</legend>
             
             <label>Nome: 
-                <input type="text">
+                <input type="text" required>
             </label><br><br>
             
             <label>Sobrenome: 
-                <input type="text">
+                <input type="text" required>
             </label><br><br>
             
             <label>Email: 
-                <input type="email">
+                <input type="email" required>
             </label><br><br>
             
             <label>Telefone: 
@@ -37,15 +37,15 @@
             <legend>Endereço</legend>
             
             <label>Rua: 
-                <input type="text">
+                <input type="text" required>
             </label><br><br>
             
             <label>Número: 
-                <input type="number">
+                <input type="text">
             </label><br><br>
             
             <label>Cidade: 
-                <input type="text">
+                <input type="text" required>
             </label><br><br>
             
             <label>Estado: 
@@ -53,7 +53,7 @@
             </label><br><br>
             
             <label>CEP: 
-                <input type="number">
+                <input type="text" required>
             </label>
         </fieldset>
         <br>
@@ -90,7 +90,7 @@
             <legend>Upload de Arquivos</legend>
             
             <label>Escolha um arquivo: 
-                <input type="text" value="Escolher arquivo"> Nenhum arquivo escolhido
+                <input type="file" accept="pdf"> 
             </label>
         </fieldset>
         <br>
@@ -99,21 +99,21 @@
             <legend>Informações de Login</legend>
             
             <label>Nome de Usuário: 
-                <input type="text">
+                <input type="text" required>
             </label><br><br>
             
             <label>Senha: 
-                <input type="text">
+                <input type="password" required>
             </label><br><br>
             
             <label>Confirmar Senha: 
-                <input type="text">
+                <input type="password" required>
             </label>
         </fieldset>
         <br>
 
 
-        <input type="text" value="Enviar">
+        <input type="submit" value="Enviar">
 
     </form>
 
