@@ -62,8 +62,17 @@
             <legend>Preferências</legend>
             
             <label>Cor Favorita: 
-                <input type="text" value="Vermelho">
-            </label><br><br>
+                <select name="cor">
+                <option>--Nenhuma--</option>
+                <option>Vermelho</option>
+                <option>Amarelo</option>
+                <option>Verde</option>
+                <option>Azul</option>
+                <option>Marrom</option>
+                <option>Preto</option>
+                <option>Branco</option>
+                </select>
+            </label><br>
             
             <label>Gênero: 
                 <input type="radio" value="m" name="genero"> Masculino 
@@ -71,9 +80,9 @@
             </label><br><br>
             
             <label>Interesses:</label><br>
-            <input type="text"> Esportes<br>
-            <input type="text"> Música<br>
-            <input type="text"> Tecnologia
+            <input type="checkbox" value="esporte"> Esportes<br>
+            <input type="checkbox" value="musica"> Música<br>
+            <input type="checkbox" value="tecnologia"> Tecnologia
         </fieldset>
         <br>
 
