@@ -7,8 +7,7 @@
 <body>
     <h1>Formulário Completo</h1>
     <form>
-       <form>
-        <!-- Dados Pessoais -->
+       
         <fieldset>
             <legend>Dados Pessoais</legend>
             
@@ -34,7 +33,6 @@
         </fieldset>
         <br>
 
-        <!-- Endereço -->
         <fieldset>
             <legend>Endereço</legend>
             
@@ -43,7 +41,7 @@
             </label><br><br>
             
             <label>Número: 
-                <input type="text">
+                <input type="number">
             </label><br><br>
             
             <label>Cidade: 
@@ -55,12 +53,11 @@
             </label><br><br>
             
             <label>CEP: 
-                <input type="text">
+                <input type="number">
             </label>
         </fieldset>
         <br>
 
-        <!-- Preferências -->
         <fieldset>
             <legend>Preferências</legend>
             
@@ -69,8 +66,8 @@
             </label><br><br>
             
             <label>Gênero: 
-                <input type="text"> Masculino 
-                <input type="text"> Feminino
+                <input type="radio" value="m" name="genero"> Masculino 
+                <input type="radio" value="f" name="genero"> Feminino
             </label><br><br>
             
             <label>Interesses:</label><br>
@@ -80,7 +77,6 @@
         </fieldset>
         <br>
 
-        <!-- Upload de Arquivos -->
         <fieldset>
             <legend>Upload de Arquivos</legend>
             
@@ -90,7 +86,6 @@
         </fieldset>
         <br>
 
-        <!-- Informações de Login -->
         <fieldset>
             <legend>Informações de Login</legend>
             
@@ -108,7 +103,7 @@
         </fieldset>
         <br>
 
-        <!-- Botão de Enviar -->
+
         <input type="text" value="Enviar">
 
     </form>
