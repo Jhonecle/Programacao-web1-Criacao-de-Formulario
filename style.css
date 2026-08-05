@@ -24,4 +24,13 @@ form{
     margin:auto;
     padding:25px;
     border-radius:10px;
+    border:1px solid #ccc;
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+fieldset{
+    border:2px solid #ccc;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
 }
