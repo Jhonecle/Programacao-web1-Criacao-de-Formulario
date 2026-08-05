@@ -3,3 +3,25 @@
     padding:0;
     box-sizing:border-box;
 }
+
+body{
+    background:#f4f4f4;
+    font-family:Arial, sans-serif;
+    color:#333;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:25px;
+    text-transform:uppercase;
+}
+
+form{
+    background:white;
+    max-width:800px;
+    margin:auto;
+    padding:25px;
+    border-radius:10px;
+}
