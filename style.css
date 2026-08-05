@@ -34,3 +34,17 @@ fieldset{
     padding:20px;
     margin-bottom:20px;
 }
+
+legend{
+    background:#0d6efd;
+    color:white;
+    padding:8px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:1px;
+}
